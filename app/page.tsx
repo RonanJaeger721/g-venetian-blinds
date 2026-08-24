@@ -45,7 +45,7 @@ export default function Home() {
     <section className="main-hero">
       <img src="/images/project-03.jpeg" alt="Made-to-measure Venetian blinds in a Harare home" />
       <div className="hero-shade" />
-      <div className="hero-content"><p>Made to measure in Harare</p><h1>BEAUTIFUL BLINDS.<br /><em>BETTER LIVING.</em></h1><span>Thoughtfully selected, accurately measured and professionally installed window finishes for homes, offices and commercial interiors.</span><div className="hero-actions"><a className="outline-btn" href="https://wa.me/263772599505?text=Hello%20G%20Venetian%20Blinds%2C%20please%20help%20me%20choose%20blinds%20for%20my%20space.">Talk to our team <b>→</b></a><a href="#guide" className="quiet-link">See what suits your room ↓</a></div></div>
+      <div className="hero-content"><p>Made to measure in Harare</p><h1 aria-label="Beautiful blinds. Better living."><span className="word-mask"><i>BEAUTIFUL</i></span><span className="word-mask second-word"><i>BLINDS.</i></span><span className="word-mask gold-word"><em>BETTER LIVING.</em></span></h1><span className="hero-description">Thoughtfully selected, accurately measured and professionally installed window finishes for homes, offices and commercial interiors.</span><div className="hero-actions"><a className="outline-btn" href="https://wa.me/263772599505?text=Hello%20G%20Venetian%20Blinds%2C%20please%20help%20me%20choose%20blinds%20for%20my%20space.">Talk to our team <b>→</b></a><a href="#guide" className="quiet-link">See what suits your room ↓</a></div></div>
       <div className="hero-note"><b>Light, privacy and style</b><span>— brought into balance.</span></div>
     </section>
 
